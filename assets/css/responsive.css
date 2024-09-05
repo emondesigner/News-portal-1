@@ -1,0 +1,821 @@
+/* XXL Device */
+@media (min-width:1400px){
+
+}
+
+/* XL Device */
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
+/* LG Device */
+@media (min-width:992px) and (max-width:1199.98px){
+    
+}
+
+/*////////////////////////////////////////////////// MD Device //////////////////////////////////////////////////*/
+@media (min-width:768px) and (max-width:991.98px){
+
+
+    /* ____________________________________HOME PAGE START____________________________________ */
+    /*==================== MIddle Nav section start==================== */
+    #middle_nav .logo img {
+        width:245px;
+      }
+      #middle_nav .add-img img {
+        width:370px;
+      }  
+     
+    /*==================== MIddle Nav section END ====================*/
+
+    /* =====================HERO AREA SECTION START===================== */
+    #hero_area .hero_area-blog-two img {
+        width: 450px;
+        cursor: pointer;
+        transition: .5s;
+        margin-top: 20px;
+        object-fit: cover;
+        
+      }
+      #hero_area .hero_area-blog-two{
+        display: flex;
+        gap: 10px;
+      }
+      .hero_area_btn_pink {
+        padding:8px;
+        font-size: 15px;
+      }  
+      .hero_area_btn_yellow {
+        font-size: 15px;
+        padding: 8px;
+      }
+      #hero_area .hero_area-blog-two .img .overlay h4 a {
+        font-size: 20px;
+        font-weight: 800;
+        padding: 18px 5px;
+      }  
+    /* =====================HERO AREA SECTION END =====================*/
+    .recent_post .recent_post_box .img img {
+        border-radius: 10px;
+        transition: 0.5s;
+        width:90%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .recent_post .recent_post_box .img{
+        width:90%;
+        border-radius: 15px;
+    }
+/* ===========================Recent post start=========================== */
+.recent_post .recent_post_box .img img {
+    border-radius: 10px;
+    transition: 0.5s;
+    width:90%;
+    object-fit:contain;
+}
+.recent_post .recent_post_info a {
+    font-size:16px;
+    line-height:20px;
+    display: inline-block;
+}
+/* ===========================Recent post end=========================== */
+
+/* ==========================Trading section start========================== */
+.tranding .tranding_tittle h5 {
+    font-weight: 800;
+    font-size:30px;
+    margin-bottom:25px;
+  }
+  .your_add {
+    margin:30px 0 20px 0;
+    text-align: center;
+}
+.your_add img{
+      width: 100%;
+}
+/* ==========================Trading section end========================== */
+
+/*======================= BANNER VEDIO SECTION START =======================*/
+#vedio P{
+    color: var(--white-color);
+    padding: 15px 0;
+}
+#vedio h5 {
+    text-align: center;
+    color: var(--white-color);
+    padding: 0 130px;
+  }
+/* =======================BANNER VEDIO SECTION END======================= */
+
+/* ==============================finance post start============================== */
+#finance .finance .post_box {
+    /* padding-right: 15px; */
+    width:32%;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  #finance .finance .post_box .img img{
+    width:100%;
+  }
+  #finance .finance .post_box p{
+    padding: 5px 0 3px 0;
+  }  
+/* ==============================finance post end============================== */
+
+/* ============================BUSINESS SECTION START============================ */
+#business .business .post_box{
+    margin-bottom: 20px;
+    transition: 0.5s;
+    padding: 10px;
+}
+#business .business .post_box:hover{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* ============================BUSINESS SECTION ENd============================== */
+/*____________________________________ HOME PAGE END____________________________________ */
+
+#post_upload .sidebar_post .sidebar .post_box .post_info span.post_content a {
+  font-size: 23px;
+}
+
+
+/* _____________________________________________________________________POLITICS PAGE START_____________________________________________________________________  */
+#post .post_content a span{
+  padding: 10px 0;
+}
+#post .post_content a h3 {
+  transition: 0.5s;
+  font-size: 30px;
+}
+#post .post_content a .img img {
+  transition: 0.5s;
+  width: 100%;
+}
+h4.tittle {
+  font-size: 25px;
+  font-weight: 800;
+}
+#business .post_box .img img {
+  width: 100%;
+}
+
+/* _____________________________________________________________________POLITICS PAGE END_____________________________________________________________________ */
+
+
+/* ___________________________________________________________________BUSINESS PAGE START___________________________________________________________________ */
+#business_hero_area .hero_area .sidebar_img img {
+  width: 100%;
+}
+#business_hero_area .hero_area .sidebar_img{
+  margin: 10px 0;
+}
+#business_hero_area .hero_area span{
+  padding: 10px 0;
+  display: inline-block;
+}
+#excutive .excutive_box .img  {
+  width: 100%;
+  height: 100%;
+
+}
+#excutive .excutive_box .excutive_info h2 a {
+ font-size: 20px;
+ font-weight: 500;
+}
+/* ___________________________________________________________________BUSINESS PAGE END___________________________________________________________________ */
+    
+
+/*____________________________________________________________________ WORD PAGE START____________________________________________________________________ */
+
+/* ____________________________________________________________________WORD PAGE End____________________________________________________________________ */
+
+
+/* _________________________________________________________________Traval Page Start_________________________________________________________________ */
+#adventures .left_side .news_box {
+  width:31%;
+
+}
+#adventures .left_side {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+}
+#adventures .left_side .news_box .news_info a {
+  font-size: 20px;
+}
+#adventures .left_side .news_box .news_info span {
+  font-size: 16px;
+  color: var(--pragraph-color);
+}
+
+#specialist .news_box .news_img img {
+  width: 100%;
+}
+/* _________________________________________________________________Traval Page End_________________________________________________________________ */
+
+
+/* ______________________________________________________________________INTERNATIONAL PAGE START______________________________________________________________________ */
+#specialist .box_content h3 {
+ font-size: 35px;
+ font-weight: 700;
+}
+#specialist .news_box .news_info a {
+  font-size: 25px;
+}
+#specialist .news_box .news_info span {
+  color: var(--pragraph-color);
+}
+/* ______________________________________________________________________INTERNATIONAL PAGE END______________________________________________________________________ */
+
+}
+
+
+
+
+/*////////////////////////////////////////////////// SM Device //////////////////////////////////////////////////*/
+@media (min-width:576px) and (max-width:767.98px){
+    
+ /* ____________________________________HOME PAGE START____________________________________ */
+    /*==================== MIddle Nav section start==================== */
+    #middle_nav .logo img {
+      width: 200px;
+    }
+    #middle_nav .add-img img {
+      width:280px;
+    }
+    .navbar .container{
+      padding: 10px ;
+      border-radius: 10px;
+    }
+    .navbar button{
+      background:none;
+      border: none;
+    }
+    /*==================== MIddle Nav section END ====================*/
+
+
+    /*========================== Hero Area Section start ==========================*/
+    #hero_area .hero_area-blog-two img {
+      width: 100%;
+      cursor: pointer;
+      transition: .5s;
+      margin: 25px 0 0 0 ;
+      padding-bottom: 0;
+    }
+    #hero_area .hero_area-blog .overlay h4 {
+        font-size: 25px;
+        padding: 16px 0 8px 0;
+
+    }
+    /*========================== Hero Area Section End========================== */
+
+    /* ============================POST UPLOAD SECTION START============================ */
+    #news_upload .post-upload-content ul.all li {
+      font-size:13px;
+    }
+    #news_upload ul.lis_item li {
+      font-size:13px;
+    }
+    #news_upload .post-upload-content .post_info .item-box {
+      width: 45%;
+    }
+    #news_upload .post-upload-content .post_info .item-box {
+      width:100%;
+      margin-bottom: 25px;
+      transition: 0.4s;
+      padding: 15px;
+    }
+    #news_upload .post-upload-content .post_info .item-box:hover{
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 10px;
+    }
+    #news_upload .post-upload-content .post_info .item-box:nth-child(1) {
+      margin-right:0px;
+    }
+    /* ============================POST UPLOAD SECTION end============================ */
+
+/* ============================Recent Post ============================ */
+    .recent_post .recent_post_box .img img {
+      margin-right:0px;
+      width:85%;
+    }
+    .recent_post .recent_post_box .img{
+      width:30%;
+
+    }
+    .recent_post .recent_post_box .recent_post_info{
+      width:70%;
+    }
+
+
+/* =============================TRADING START============================= */
+    .tranding .tranding_tittle h5 {
+      padding: 20px;
+      font-size: 38px;
+      margin-bottom:15px;
+      font-weight:bold;
+    }
+    .tranding .tranding-img  {
+      width: 30%;
+    }
+    .tranding .tranding_info{
+      width: 70%;
+    }
+    .your_add {
+      margin: 20px 0 0 0;
+      text-align: center;
+    }
+    .your_add img{
+      width: 100%;
+    }
+
+
+/* =================================VEDIO SECTION START================================= */
+#vedio P {
+  color: var(--white-color);
+  padding: 10px 0;
+}
+#vedio h5 {
+  padding: 0 113px;
+}
+#vedio {
+  padding: 25px 0;
+  margin: 20px 0;
+}
+
+
+/* ================================FINANCE SECTION START================================ */
+#finance .finance .post_box {
+  padding-right:0px;
+  width:100%;
+  margin: 10px 0 15px 0;
+}
+#finance .finance .post_box img{
+  width: 100%;
+}
+
+    /*____________________________________ HOME PAGE END-------------------------____________________________________ */
+
+
+/* _______________________________________________________________________POLITICS PAGE START_______________________________________________________________________  */
+#post .post_content a span {
+  padding-bottom: 10px;
+}
+#business .business .post_box {
+  margin: 10px 0;
+}
+#post .post_content a .img img {
+  width: 100%;
+}
+#business .post_box .img img {
+  width: 100%;
+
+}
+/* _______________________________________________________________________POLITICS PAGE END_______________________________________________________________________ */
+
+
+
+/*________________________________________________________________ BUSINESS PAGE START________________________________________________________________ */
+#business_hero_area .hero_area .post_content .post_info h2 a {
+  color: var(--primary-text);
+  transition: 0.5s;
+  padding: 40px 0 10px 0;
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+#business_hero_area .hero_area .post_content .psot_img {
+  width: 100%;
+}
+#business_hero_area .hero_area .post_content .post_info {
+  width:100%;
+}
+#business_hero_area .hero_area .post_content {
+  flex-direction: column;
+}
+#business_hero_area .hero_area .post_content{
+  margin-bottom: 20px;
+}
+#business_hero_area .hero_area .post_content .post_info p {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+#business_hero_area .hero_area .sidebar_img img {
+  width: 100%;
+}
+#business_hero_area .hero_area .sidebar_post_info a {
+  padding-top: 10px;
+}
+#business_hero_area .hero_area .sidebar_post_info span.right_side_post_info{
+  padding: 10px 0;
+  display: inline-block;
+}
+
+/* ----------------------------------Executive SECTION START---------------------------------- */
+#excutive .excutive_box {
+  flex-direction: column;
+}
+#excutive .excutive_box .img {
+  width: 100%;
+}
+#excutive .excutive_box .excutive_info h2 a {
+  padding: 10px 0;
+  display: inline-block;
+}
+#excutive .excutive_box .excutive_info a.see_more {
+  padding: 10px 36px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* --------------------------------Influential  section start-------------------------------- */
+#influential .influential_post_box .img img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+#influential .influential_post_box{
+  margin-bottom: 25px;
+}
+
+/* ________________________________________________________________BUSINESS PAGE END________________________________________________________________ */
+
+#business .business .post_box {
+  margin: 10px 0 15px 0;
+}
+
+/* _________________________________________________________________________Traval PAGE START_________________________________________________________________________ */
+#trabl_hero_area .hero_area h2 a {
+  font-size: 20px;
+}
+#adventures .left_side .news_box {
+  width:100%;
+  transition: 0.4s;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+#adventures .left_side .news_box .news_img img{
+  width: 100%;
+}
+#traval_spot_area .spot_area a {
+  color: var(--primary-text);
+  transition: 0.5s;
+  font-size: 21px;
+}
+#specialist .news_box .news_img img {
+ width: 100%;
+}
+#specialist .news_box{
+  margin-bottom: 20px;
+}
+/* _________________________________________________________________________Traval PAGE END_________________________________________________________________________ */
+#specialist .news_box .news_info a {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 15px ;
+  display: inline-block;
+}
+#post .post_content a h3 {
+  font-weight: bold;
+  padding-top: 15px ;
+  font-size: 25px;
+}
+/*_________________________________________________ POST ONE PAGE START_________________________________________________  */
+#post_upload .sidebar_post .sidebar .tittle h4{
+  font-size: 25px;
+  font-weight: bold;
+}
+#post_upload .sidebar_post .sidebar .tittle{
+  border-radius: 10px;
+}
+#post_upload .sidebar_post .sidebar .post_box .post_info span.post_content a {
+  display: inline-block;
+  font-size: 20px;
+  color: var(--primary-text);
+  transition: 0.5s;
+}
+#post_upload .sidebar_post .sidebar .post_box .img {
+  width: 30%;
+}
+#post_upload .sidebar_post .sidebar .post_box .post_info {
+  width:70%;
+  margin-left: 10px;
+}
+
+#post_upload .sidebar_post .sidebar .post_box .img img {
+  width: 100%;
+}
+#finance .finance .post_box .post_info p{
+  padding: 10px 0 0 0;
+}
+#finance .finance .post_box span a {
+  font-size:22px;
+  font-weight: bold;
+}
+#business .post_box .post_info h4 a {
+  font-size:22px;
+  font-weight: bold;
+}
+/*_________________________________________________ POST ONE PAGE END _________________________________________________*/
+
+
+}
+
+
+
+
+
+
+/* XS Device */
+@media  (min-width:375px) and (max-width:575.98px){
+  #top_nav{
+    display: none;
+  }
+#middle_nav .container{
+  display: flex;
+  flex-direction: column;
+}
+#middle_nav .logo img {
+  width: 200px;
+}
+#middle_nav .add-img img {
+  margin-top: 10px;
+  height: 80px;
+}
+.navbar .container{
+  padding: 10px ;
+}
+/* _________________________________________________________________________HOME PAGE START_________________________________________________________________________ */
+
+/* -------------------HERO AREA SECTIO START------------------- */
+#hero_area .hero_area-blog .overlay ul li{
+  margin-right:25px;
+}
+#hero_area .hero_area-blog .overlay h4 a{
+ 
+}
+#hero_area .hero_area-blog .overlay h4 {
+  font-weight: 800;
+  color: var(--white-color);
+  padding: 10px 0;
+  font-size: 22px;
+}
+#hero_area .hero_area-blog .overlay {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  height: auto;
+  width: 100%;
+}
+#hero_area .hero_area-blog{
+  margin-bottom: 20px;
+}
+
+/* ----------------------LEFT SIDE VAR SECTION START---------------------- */
+#news_upload .post-upload-content .lis_item ul {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+#news_upload ul.lis_item li {
+  font-size: 22px;
+  font-weight: 400;
+  padding: 10px 0 ;
+  cursor: pointer;
+}
+#news_upload .post-upload-content .lis_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#news_upload .post-upload-content .post_info .item-box {
+  width: 100%;
+}
+#news_upload .post-upload-content .post_info .item-box:nth-child(1) {
+  margin-right: 0px;
+}
+#news_upload .post-upload-content .post_info .item-box{
+  margin: 10px 0 15px 0;
+}
+#news_upload .post-upload-content .post_info .item-box h4 a {
+  font-size: 27px;
+  font-weight: bold;
+}
+#news_upload .post-upload-content .post_info .item-box p {
+  padding-top: 20px;
+}
+/* -----------------------------RECENT POST----------------------------- */
+.recent_post .recent_post_box .img {
+  width: 30%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.recent_post .recent_post_box .img img{
+  width: 100%;
+}
+.recent_post .recent_post_box .recent_post_info {
+  width: 70%;
+}
+.recent_post .recent_post_info a {
+  font-size: 18px;
+}
+/* ---------------------------Trading post --------------------------- */
+.tranding .tranding_tittle h5 {
+  padding: 20px;
+  font-size: 41px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.your_add {
+  margin: 15px 0 ;
+}
+/* -------------------------VIDEO SECTION START------------------------- */
+#vedio P {
+  color: var(--white-color);
+  padding: 10px 0 0 0 ;
+}
+#vedio h5 {
+  padding: 0 60px;
+}
+#vedio {
+  padding:20px 0;
+}
+
+/* -----------------------------FINANCE SECTION START----------------------------- */
+#finance .finance .post_box {
+  padding-right: 0;
+  width: 100%;
+}
+#finance .finance .post_box .img img {
+  width: 100%;
+}
+#finance .finance .post_box .post_info p{
+  padding-top: 10px;
+}
+#finance .finance .post_box span a {
+  font-size: 21px;
+  line-height: 1;
+  font-weight: bold;
+  padding-top: 8px;
+  display: inline-block;
+}
+#finance .finance .post_box{
+  margin: 10px 0 15px 0;
+}
+h4.tittle {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* --------------------------BUSINESS SECTION START-------------------------- */
+#business .business .post_box{
+  margin: 10px 0 15px 0;
+}
+/* _________________________________________________________________________HOME PAGE END_________________________________________________________________________ */
+
+
+/* _________________________________________________________________________POLITICS PAGE START_________________________________________________________________________ */
+#post .post_content a h3 {
+  font-size:23px ;
+  font-weight: bold;
+}
+#post .post_content a span {
+  padding-top: 11px;
+  padding-bottom: 15px;
+}
+/* _________________________________________________________________________POLITICS PAGE END_________________________________________________________________________ */
+
+
+/* _________________________________________________________________________POLITICS PAGE START_________________________________________________________________________ */
+#business_hero_area .hero_area .post_content{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+#business_hero_area .hero_area .post_content .post_info h2 a {
+  padding: 0 0 0 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+#business_hero_area .hero_area .post_content .post_info{
+  width: 100%;
+}
+#business_hero_area .hero_area .post_content .post_info p {
+  font-size: 16px;
+  padding: 15px 0 15px 0;
+}
+#business_hero_area .hero_area .post_content .psot_img  {
+  width: 100%;
+}
+#business_hero_area .hero_area .sidebar_post_info a {
+  color: var(--primary-text);
+  transition: 0.5s;
+  font-size: 25px;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 0;
+}
+#business_hero_area .hero_area .sidebar_post_info .right_side_post_info{
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+/* ----------------------------------Executive SECTION START---------------------------------- */
+#excutive .excutive_box {
+  display: flex;
+  flex-direction: column;
+}
+#excutive .excutive_box .img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#excutive .excutive_box h2 a{
+  font-weight: bold;
+}
+/*  ------------------------------------Influential  section start------------------------------------ */
+#influential .influential_post_box{
+  margin-bottom:20px;
+}
+#influential .influential_post_box .post_info h4 a {
+  font-weight: bold;
+  font-size: 24px;
+}
+/* _________________________________________________________________________POLITICS PAGE END_________________________________________________________________________ */
+
+
+/* _________________________________________________________________________WORD PAGE START_________________________________________________________________________ */
+#business .post_box .post_info h4 a {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* _________________________________________________________________________WORD PAGE END_________________________________________________________________________ */
+
+
+/* _________________________________________________________________________TRAVAL PAGE START_________________________________________________________________________ */
+#trabl_hero_area .hero_area {
+  width:70%;
+}
+#trabl_hero_area .hero_area h2 a {
+  color: var(--primary-text);
+  display: inline-block;
+  padding: 0 0 10px 15px;
+  transition: .5s;
+  font-size: 20px;
+  font-weight: bold;
+}
+#trabl_hero_area .container {
+  height: 300px;
+}
+#trabl_hero_area .hero_area p {
+  padding: 8px 8px 8px 10px;
+  font-size: 12px;
+}
+/* ---------------------------Adventures section start--------------------------- */
+#adventures {
+  margin: 18px 0;
+}
+#adventures .container {
+  padding:10px 0;
+}
+#adventures .left_side .news_box {
+  width:100%;
+  padding: 10px;
+}
+#adventures .left_side .news_box .news_info a {
+  font-size: 23px;
+  font-weight: bold;
+}
+/* -------------------------TRAVAL SPOT AREA SECTION START----------------------- */
+#traval_spot_area .spot_content {
+  flex-direction: column;
+}
+#traval_spot_area .spot_area {
+  width:100%;
+  margin-right:0;
+  margin-bottom: 15px;
+}
+#traval_spot_area .spot_area .post_info h3 a{
+  font-weight: bold;
+  font-size: 25px;
+}
+#specialist .news_box .news_info a {
+  font-weight: bold;
+  font-size: 25px;
+}
+#specialist .news_box .news_img {
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+}
+#specialist .news_box .news_img img{
+  width: 100%;
+
+}
+/* _________________________________________________________________________TRAVAL PAGE END_________________________________________________________________________ */
+#post .post_content a .img img {
+ width: 100%;
+}
+
+}
