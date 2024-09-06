@@ -568,7 +568,21 @@ h4.tittle {
 #hero_area .hero_area-blog{
   margin-bottom: 20px;
 }
-
+#hero_area .hero_area-blog-two .img .overlay {
+  position: absolute;
+  top:45%;
+  left: 5%;
+  height: 100%;
+  width: 100%;
+}
+.hero_area_btn_pink {
+  padding: 8px;
+  font-size: 15px;
+}
+.hero_area_btn_yellow {
+  padding: 8px;
+  font-size: 15px;
+}
 /* ----------------------LEFT SIDE VAR SECTION START---------------------- */
 #news_upload .post-upload-content .lis_item ul {
  display: flex;
