@@ -527,7 +527,7 @@ h4.tittle {
 
 
 /* XS Device */
-@media  (min-width:375px) and (max-width:575.98px){
+@media (max-width:575px){
   #top_nav{
     display: none;
   }
