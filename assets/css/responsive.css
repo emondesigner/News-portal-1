@@ -527,7 +527,7 @@ h4.tittle {
 
 
 /* XS Device */
-@media (max-width:575px){
+@media (min-width:350px) and  (max-width:575px){
   #top_nav{
     display: none;
   }
@@ -551,14 +551,12 @@ h4.tittle {
 #hero_area .hero_area-blog .overlay ul li{
   margin-right:25px;
 }
-#hero_area .hero_area-blog .overlay h4 a{
- 
-}
 #hero_area .hero_area-blog .overlay h4 {
   font-weight: 800;
   color: var(--white-color);
   padding: 10px 0;
-  font-size: 22px;
+  font-size: 21px;
+  /* font-size: 20px; */
 }
 #hero_area .hero_area-blog .overlay {
   position: absolute;
@@ -817,5 +815,7 @@ h4.tittle {
 #post .post_content a .img img {
  width: 100%;
 }
-
+#hero_area .hero_area-blog-two .img img{
+  width:100% ;
+}
 }
